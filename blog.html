@@ -3,6 +3,26 @@
 <html lang="en">
 
 
+<style type="text/css">
+  
+  .expand_box{
+    background-color:#4070f4 ;
+    color: white;
+
+  }
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #4070f4;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+</style>
+
 <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -85,9 +105,40 @@
               <p>
                 alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
               </p>
-              <a href="">
-                Read More
-              </a>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Read More
+                </a>
+
+               <!--  After Expand content -->  
+
+        <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+              
+
+              <p class="expand_box">
+            Completely Understand How The Stock Market Works
+
+            Master Technical Analysis: Candlestick Patterns, Chart Patterns, Volume, And Technical Indicators.
+
+          
+
+            How To Send Orders And Different Order Types.
+
+            Different Exchanges: NSE, BSE & MCX.
+
+            isk Management: How To Reduce Losses And Manage Overall Portfolio Risk.
+
+            Money Management: How To Manage Risk On Each Position, How Many Shares To Buy, And Where To Take A Loss.
+
+            How To Short Sell So You Can Make Money If The Market Goes Down.
+
+            Trading Psychology: Become An Expert In Human Emotions And The Different Biases That Affect People When Money Is Involved.
+          </p> 
+              </div>
+            </div>
+
+                <!-- End Expand content -->  
+
             </div>
           </div>
         </div>
@@ -102,14 +153,45 @@
             </div>
             <div class="detail-box">
               <h5>
-                Anything embarrassing hidden in the middle
+                Look even slightly believable. If you are
               </h5>
               <p>
                 alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
               </p>
-              <a href="">
-                Read More
-              </a>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Read More
+                </a>
+
+               <!--  After Expand content -->  
+
+        <div class="collapse" id="collapseExample1">
+        <div class="card card-body">
+              
+
+              <p class="expand_box">
+            Completely Understand How The Stock Market Works
+
+            Master Technical Analysis: Candlestick Patterns, Chart Patterns, Volume, And Technical Indicators.
+
+          
+
+            How To Send Orders And Different Order Types.
+
+            Different Exchanges: NSE, BSE & MCX.
+
+            isk Management: How To Reduce Losses And Manage Overall Portfolio Risk.
+
+            Money Management: How To Manage Risk On Each Position, How Many Shares To Buy, And Where To Take A Loss.
+
+            How To Short Sell So You Can Make Money If The Market Goes Down.
+
+            Trading Psychology: Become An Expert In Human Emotions And The Different Biases That Affect People When Money Is Involved.
+          </p> 
+              </div>
+            </div>
+
+                <!-- End Expand content -->  
+
             </div>
           </div>
         </div>
@@ -169,5 +251,9 @@
         <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
         <!-- <script src="{% static 'frontend/main/js/main.js' %}"></script> -->
         <script src="frontend/main/js/script.js"></script>
+
+
+        <!--===== Bootstrap  JS =====-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
     </body>
 </html>
