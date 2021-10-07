@@ -89,6 +89,7 @@ section{
     font-size: 2.5rem;
     color:var(--black);
     font-weight: bold;
+    text-decoration: none;
 }
 
 .header .logo span{
@@ -100,6 +101,7 @@ section{
     font-size: 1.7rem;
     color:var(--black);
     font-weight:bold;
+    text-decoration: none;
 }
 
 .header .navbar a:hover{
@@ -586,6 +588,7 @@ section{
     font-size: 1.4rem;
     padding:1rem 0;
     color:white;
+    text-decoration: none;
 }
 
 .footer .box-container .box a i{
@@ -677,6 +680,7 @@ section{
         display: block;
         font-size: 2rem;
         font-weight: bold;
+        width: 100%;
     }
 
 }
